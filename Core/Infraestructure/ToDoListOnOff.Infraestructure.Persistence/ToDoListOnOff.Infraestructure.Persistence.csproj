@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\Transversal\ToDoListOnOff.Transversal.Helpers\ToDoListOnOff.Transversal.Helpers.csproj" />
+      <ProjectReference Include="..\..\Domain\ToDoListOnOff.Domain.Interfaces\ToDoListOnOff.Domain.Interfaces.csproj" />
+      <ProjectReference Include="..\..\Domain\ToDoListOnOff.Domain.Primitives\ToDoListOnOff.Domain.Primitives.csproj" />
+      <ProjectReference Include="..\ToDoListOnOff.Infraestructure.Configuration\ToDoListOnOff.Infraestructure.Configuration.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.7" />
+    </ItemGroup>
+
+</Project>

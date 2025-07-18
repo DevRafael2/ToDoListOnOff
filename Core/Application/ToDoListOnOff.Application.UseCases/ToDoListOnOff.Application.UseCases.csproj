@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\Transversal\ToDoListOnOff.Transversal.Helpers\ToDoListOnOff.Transversal.Helpers.csproj" />
+      <ProjectReference Include="..\..\Domain\ToDoListOnOff.Domain.Entities\ToDoListOnOff.Domain.Entities.csproj" />
+      <ProjectReference Include="..\..\Domain\ToDoListOnOff.Domain.Interfaces\ToDoListOnOff.Domain.Interfaces.csproj" />
+      <ProjectReference Include="..\..\Domain\ToDoListOnOff.Domain.Primitives\ToDoListOnOff.Domain.Primitives.csproj" />
+      <ProjectReference Include="..\ToDoListOnOff.Application.Dtos\ToDoListOnOff.Application.Dtos.csproj" />
+      <ProjectReference Include="..\ToDoListOnOff.Application.Mappers\ToDoListOnOff.Application.Mappers.csproj" />
+      <ProjectReference Include="..\ToDoListOnOff.Application.QueryParams\ToDoListOnOff.Application.QueryParams.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Mapster" Version="7.4.0" />
+      <PackageReference Include="MediatR" Version="13.0.0" />
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.12.1" />
+    </ItemGroup>
+
+</Project>
